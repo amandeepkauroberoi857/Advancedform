@@ -10,12 +10,12 @@
 <h4>Made by : Amandeep Kaur Oberoi</h4>
 <fieldset><br>
 <legend>Personal detail</legend>
-<input type="text" name="Student name" placeholder="Student name" pattern="^[a-zA-Z\s]+$" title="name can have alphabets only" autocomplete="on"
+<input type="text" name="Student name" placeholder="Student name" pattern="^[a-zA-Z\s]+$" title="name can have alphabets only"
 maxlength="30" autofocus="autofocus" required="required"><br><br>
 <input type="number" name="age" placeholder="age" min="18" max="60" required="required"><br><br>
-<input type="text" name="Father name"  placeholder="Father name" required="required" pattern="^[a-zA-Z\s]+$" title="name can have alphabets only" autocomplete="on"><br><br>
-<input type="text" name="Mother name"  placeholder="Mother name" required="required" pattern="^[a-zA-Z\s]+$" title="name can have alphabets only"autocomplete="on"><br><br>
-<input type="password" name="password"  placeholder="password" required="required" patterrn="*[a-z])(?=.*[A-Z]).{8,}" title="fill this required field"autocomplete="on"><br><br>
+<input type="text" name="Father name"  placeholder="Father name" required="required" pattern="^[a-zA-Z\s]+$" title="name can have alphabets only" ><br><br>
+<input type="text" name="Mother name"  placeholder="Mother name" required="required" pattern="^[a-zA-Z\s]+$" title="name can have alphabets only"><br><br>
+<input type="password" name="password"  placeholder="password" required="required" patterrn="*[a-z])(?=.*[A-Z]).{8,}" title="fill this required field"><br><br>
 <input type="text" name="mobile number"  placeholder="mobile number"required="required" pattern="[789][0-9]{9}"><br><br>
 <input type="email"  name="email" placeholder="Email" required="required" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"><br><br>
 Address:<br>
@@ -41,13 +41,15 @@ Identity Proof:<input type="file" name="attachments" multiple="multiple"><br>
 Lab fees:<input type="text" value="500" disabled="disabled"><br><br>
 <label for="txtqualification">Qualification</label>
 <select name="qualification" id="txtqualification">
-<option value="b.com" selected="selected">b.com</option>
+ <option>....SELECT AN OPTION....</option>
+<option value="b.com">b.com</option>
 <option value="b.tech">b.tech</option>
 <option value="bsc">bsc</option>
 <option value="bca">bca</option>
 </select><br><br>
  Sports: 
- <br><select name="sports" multiple="multiple">sports
+ <select name="sports" multiple="multiple"SIZE="5">
+ <option> SPORTS </option>
  <option value="football">football</option>
 <option value="hockey">hockey</option>
 <option value="cricket">cricket</option>
